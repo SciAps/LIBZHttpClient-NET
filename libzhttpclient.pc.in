@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+Libraries=@libdir@/libzhttpclient/libzhttpclient.dll
+
+Name: superstring-sharp
+Description: LIBZHttp Client - Sciaps Http Library
+Version: @VERSION@
+Libs: -r:@libdir@/libzhttpclient/libzhttpclient.dll

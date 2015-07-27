@@ -1,6 +1,6 @@
 AC_INIT(README)
 AC_CANONICAL_SYSTEM
-AM_INIT_AUTOMAKE(superstring-sharp, 0.1)
+AM_INIT_AUTOMAKE(libzhttpclient, 0.1)
 AM_MAINTAINER_MODE
 
 AC_PROG_INSTALL
@@ -32,7 +32,7 @@ AC_SUBST(MCS)
 
 AC_OUTPUT([
 Makefile
-superstring-sharp.pc
+libzhttpclient.pc
 src/Makefile
 src/AssemblyInfo.cs
 ])

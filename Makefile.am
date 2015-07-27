@@ -1,7 +1,7 @@
 SUBDIRS = src
-EXTRA_DIST = superstring-sharp.pc.in
+EXTRA_DIST = libzhttpclient.pc.in
 
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = superstring-sharp.pc
+pkgconfig_DATA = libzhttpclient.pc
 
 DISTCLEANFILES = config.guess config.sub Makefile.in configure COPYING INSTALL install-sh missing aclocal.m4

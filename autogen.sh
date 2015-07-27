@@ -1,7 +1,7 @@
 #! /bin/sh
 
-PROJECT=monoskel-lib
-FILE=src/SuperString.cs
+PROJECT=libzhttpclient-lib
+FILE=src/LIBZHttpClient.cs
 CONFIGURE=configure.ac
 
 : ${AUTOCONF=autoconf}
@@ -50,7 +50,7 @@ DIE=0
 if test "$DIE" -eq 1; then
         exit 1
 fi
-                                                                                
+
 test $TEST_TYPE $FILE || {
         echo "You must run this script in the top-level $PROJECT directory"
         exit 1
@@ -81,4 +81,3 @@ $AUTOCONF
 
 echo Running $srcdir/configure $conf_flags "$@" ...
 $srcdir/configure --enable-maintainer-mode $conf_flags "$@" \
-
